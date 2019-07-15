@@ -1,1 +1,142 @@
 /* You can add global styles to this file, and also import other style files */
+   
+.c-border{
+    border-radius: 50%;
+}
+
+form {
+max-width: 200px;
+}
+
+p * {
+display: block;
+}
+
+input[type=email]{
+-webkit-appearance: none;
+
+width: 100%;
+border: 1px solid #333;
+margin: 0;
+
+font-family: inherit;
+font-size: 90%;
+
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+
+form {
+max-width: 200px;
+}
+
+p * {
+display: block;
+}
+
+input.mail {
+-webkit-appearance: none;
+
+width: 100%;
+border: 1px solid #333;
+margin: 0;
+
+font-family: inherit;
+font-size: 90%;
+
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input.invalid{
+border-color: #900;
+background-color: #FDD;
+}
+
+input:focus.invalid {
+outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+width  : 100%;
+padding: 0;
+
+font-size: 80%;
+color: white;
+background-color: #900;
+border-radius: 0 0 5px 5px;
+
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.error.active {
+padding: 0.3em;
+}
+
+
+.gridr-class {
+    display: grid;
+    grid-template-rows: auto auto 30px 30px 30px auto auto 1fr;
+}
+
+.gridc-class {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.class-border {
+
+    border-bottom: 3px solid rgb(128, 24, 24);
+    display: flex;
+
+
+}
+
+.class-flex {
+    display: flex;
+
+}
+
+.class-flex-grow {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+
+.box-radius {
+
+    border: 4px solid rgb(128, 24, 24);
+    border-radius: 5px;
+}
+
+
+.custom-grad {
+    height: 3px;
+    width: 1200px;
+    margin-left: 10px;
+    background: linear-gradient(to right, rgba(161, 2, 24, 0.17) 0%, rgba(146, 2, 22, 0.67) 22%, rgba(132, 2, 19, 1) 43%, rgba(131, 2, 19, 1) 44%, rgba(119, 1, 17, 0.88) 68%, rgba(103, 0, 14, 0.24) 98%, rgba(102, 0, 14, 0.24) 100%);
+}
+
+.body-color {
+    background:linear-gradient(to right, rgba(51,12,12,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 0%, rgba(102,102,102,0.95) 12%, rgba(71,71,71,0.89) 27%, rgba(107,0,9,0.84) 38%, rgba(17,17,17,0.71) 68%, rgba(20,20,20,0.71) 69%, rgba(43,43,43,0.59) 76%, rgba(28,28,28,0.59) 76%, rgba(106,89,106,0.25) 96%, rgba(106,89,106,0.26) 96%, rgba(122,101,122,0.26) 100%);
+}
+
+body {
+    margin: 0px;
+}
+
+.shadow {
+background: #000;
+border-radius: 700px7002px 4px 4px;
+box-shadow: 0 0 20px 10px #000;
+height: 12px;
+margin: 30px auto;
+opacity: 0.2;
+width: 270px;
+}
